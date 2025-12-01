@@ -11,3 +11,14 @@ int* vAdd(int *A,int *B,int size)
     return C;
 
 }
+int vDot(int *A,int *B,int size)
+{
+    int C=0;
+    int i=0;
+    for(i=0;i<size;i++)
+    {
+        C+=A[i]*B[i];
+    }
+    return C;
+
+}
