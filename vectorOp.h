@@ -6,4 +6,5 @@ int* vSub(int *A,int *B,int size);
 int vDot(int *A,int *B,int size); 
 
 
+
 #endif
