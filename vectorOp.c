@@ -9,6 +9,7 @@ int* vAdd(int *A,int *B,int size)
         C[i]=A[i]+B[i];
     }
     return C;
+    
 }
 int* vSub(int *A,int *B,int size)
 {
